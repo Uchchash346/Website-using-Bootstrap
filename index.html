@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Super Cars Store</title>
+	<!-- Ei lin er karone website responsive hobe -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<!-- HEAD -->
+	<section>
+		<!-- Add a white text color to all links in the navbar with the .navbar-dark class, or use the .navbar-light class to add a black text color. -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  			<a class="navbar-brand" href="#"><h1>Super Cars Store</h1></a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  			<!-- ml-auto nav left, mr-autonav right -->
+    		<ul class="navbar-nav ml-auto">
+      		<li class="nav-item active">
+        	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span>	</a>
+      		</li>
+      		<!-- <li class="nav-item">
+      		        	<a class="nav-link" href="#">Link</a>
+      		</li> -->
+      		<li class="nav-item dropdown">
+        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          	About Us
+        	</a>
+        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          	<a class="dropdown-item" href="#">History</a>
+          	<a class="dropdown-item" href="#">Branches</a>
+          	<div class="dropdown-divider"></div>
+          	<a class="dropdown-item" href="#">Location</a>
+        	</div>
+      		</li>
+      		<li class="nav-item">
+        	<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Create Account</a>
+      		</li>
+    		</ul>
+    		<form class="form-inline my-2 my-lg-0">
+      		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    		</form>
+  		</div>
+		</nav>
+	</section>
+	<!-- SLIDER -->
+	<!-- Carouselhttps://www.w3schools.com/bootstrap4/bootstrap_carousel.asp -->
+	<section>
+			<div id="demo" class="carousel slide" data-ride="carousel">
+  			<ul class="carousel-indicators">
+    		<li data-target="#demo" data-slide-to="0" class="active"></li>
+    		<li data-target="#demo" data-slide-to="1"></li>
+    		<li data-target="#demo" data-slide-to="2"></li>
+  			</ul>
+  			<div class="carousel-inner">
+    		<div class="carousel-item active">
+      		<img src="image/4.jpg" alt="Los Angeles">
+      		<div class="carousel-caption">
+        	<h3>Porsche 718 Cayman GT4</h3>
+        	<p>We bet it is going to be awesome</p>
+      		</div>   
+    		</div>
+    		<div class="carousel-item">
+      		<img src="image/14.jpg" alt="Chicago">
+      		<div class="carousel-caption">
+        	<h3>Lamborghini Huracán Sterrato</h3>
+        	<p>The Rambo Lambo V2</p>
+      		</div>   
+    		</div>
+    		<div class="carousel-item">
+      		<img src="image/15.jpg" alt="New York">
+      		<div class="carousel-caption">
+        	<h3>McLaren GT</h3>
+        	<p>A True Luxury GT</p>
+      		</div>   
+    		</div>
+  			</div>
+  			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    		<span class="carousel-control-prev-icon"></span>
+  			</a>
+  			<a class="carousel-control-next" href="#demo" data-slide="next">
+    		<span class="carousel-control-next-icon"></span>
+  			</a>
+			</div>
+	<!-- About -->
+	<section>
+		<!-- mt->margin top -->
+		<div class="container mt-5">
+			<div class="row">
+			<div class="col-lg-6 col-md-6 col-12">
+				<img src="image/6.jpg" class="img-fluid mb-3">
+			</div>
+			<div class="col-lg-6 col-md-6 col-12">
+				<h1>Lamborghini Huracan Performante Spyder</h1>
+				<p>It is addictive. Its 631 hp 5.2 liter V10 revs all the way to 8500 rpm and when combined with the same upgrades as the coupe (active aero, torque vectoring, stability-control program, weight loss), it is just incredible.</p>
+			</div>
+			</div>
+		</div>
+	</section>
+	</section>
+	<!-- Super cars -->
+	<!-- py-> padding for y axis -->
+	<section class="bg-secondary mt-4 py-4">
+		<!-- mb-> margin bottom -->
+		<h1 class="text-white text-center mb-3">Another Super Cars</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-12 mb-3">
+					<div class="card">
+    					<img class="card-img-top" src="image/3.jpg" alt="Card image" class="img-fluid">
+    					<div class="card-body">
+      						<h4 class="card-title">Ferrari SF90 Stradale</h4>
+      						<p class="card-text">It’s a stunning new hybrid supercar that offers 989 hp from a plug-in hybrid powertrain. It features a plug-in hybrid setup that utilizes a turbocharged 3.9-liter V8 paired to three electric motors. Two of those electric motors are mounted on the front axle and one is mounted between the engine and the gearbox.</p>
+      						<a href="https://www.supercars.net/blog/category/brand/ferrari/ferrari-supercars/ferrari-sf90-stradale/" class="btn btn-primary">Learn More</a>
+    					</div>
+  					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3">
+					<div class="card">
+    					<img class="card-img-top" src="image/8.jpg" alt="Card image" class="img-fluid">
+    					<div class="card-body">
+      						<h4 class="card-title">Aston Martin Vanquish</h4>
+      						<p class="card-text">The Aston Martin Vanquish will compete in the supercar market with the Ferrari F8 Tributo, Lamborghini Huracan EVO, and McLaren’s vehicles. The Vanquish is still a few years away from debuting, but when it does, it will be a force to be reckoned with. The car will feature an aluminum V6 engine paired with an electric motor.
+      						</p>
+      						<a href="https://www.supercars.net/blog/all-brands/aston-martin/" class="btn btn-primary">Learn More</a>
+    					</div>
+  					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3">
+					<div class="card">
+    					<img class="card-img-top" src="image/13.jpg" alt="Card image" class="img-fluid">
+    					<div class="card-body">
+      						<h4 class="card-title">Lamborghini Huracán Evo</h4>
+      						<p class="card-text">The Huracán EVO is the mid-life update for the Huracan platform. Lamborghini did lots of fine tuning to make the already great Huracan better. On the outside the Evo gets design changes that add some drama to the Huracan.That means a power-to-weight ratio of 451 bhp per tonne, good for a top speed of 202 mph</p>
+      						<a href="https://www.supercars.net/blog/category/brand/lamborghini/lamborghini-models/lamborghini-huracan/lamborghini-huracan-evo/" class="btn btn-primary">Learn More</a>
+    					</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Car Galleries -->
+	<section class="mt-5">
+		<h1 class="text-center">Galleries</h1>
+		<!-- mx-> margin left thekeo autometic r right thekeo auometic -->
+		<hr class="w-25 mx-auto pb-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/2.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/11.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/12.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/16.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/17.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/18.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/19.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/22.jpg" class="img-fluid" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3"><img src="image/5.jpg" class="img-fluid" alt=""></div>
+
+			</div>
+		</div>
+	</section>
+	<!-- Contact Form -->
+	<section class="bg-light py-4">
+		<h1 class="text-center">Contact Us</h1>
+		<hr class="w-25 mx-auto pb-3">
+		<div class="container w-50 mx-auto">
+			<form action="/action_page.php">
+    			<div class="form-group">
+      			<label for="usr">Your Name</label>
+      			<input type="text" class="form-control" id="name" name="username" placeholder="Name">
+    			</div>
+    			
+    			<div class="form-group">
+      			<label for="usr">Email Address</label>
+      			<input type="text" class="form-control" id="Email" name="username" placeholder="Email">
+    			</div>
+
+    			<div class="form-group">
+      			<label for="usr">Mobile No.</label>
+      			<input type="text" class="form-control" id="Mobile" name="username" placeholder="Mobile Number">
+    			</div>
+
+    			<div class="form-group">
+      			<label for="comment">Comment:</label>
+      			<textarea class="form-control" rows="5" id="comment" name="text" placeholder="Write Your comments"></textarea>
+    			</div>
+    			<button type="submit" class="btn btn-primary">Submit</button>
+  			</form>
+		</div>
+	</section>
+	<!-- Footer -->
+	<section>
+		<div class="container-fluid bg-dark py-1 text-white text-center">
+			Copyright @2020 All rights reserved | This was made by Uchchash
+		</div>
+	</section>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
